@@ -23,10 +23,10 @@ DATASET_PATH = "./datasets/gr1_arms_only.Nut_pouring_task"
 DATASET_VIDEO_BACKEND = "decord" # torchvision_av #this is important!
 MODEL_COMPUTE_DTYPE = "bfloat16"
 FINETUNED_OUTPUT_DIRECTORY = "./finetuned/gr1_arms_only.Nut_pouring_batch32_nodiffusion"
-BATCH_SIZE = 8
+BATCH_SIZE = 32
 MAX_STEPS = 40000
 SAVE_STEPS = 10000 # save the model in this steps
-GRADIENT_ACCUMULATION_STEPS = 32
+GRADIENT_ACCUMULATION_STEPS = 1
 RUN_NAME = "gr1_arms_only.Nut_pouring_batch32_nodiffusion" # for reporting to wandb
 LEARNING_RATE = 1e-4
 

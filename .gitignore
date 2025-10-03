@@ -1,0 +1,8 @@
+wandb/
+results/*
+!results/.gitkeep
+__pycache__/
+datasets/*
+!datasets/.gitkeep
+finetuned/*
+!finetuned/.gitkeep

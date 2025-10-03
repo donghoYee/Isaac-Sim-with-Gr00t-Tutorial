@@ -6,3 +6,4 @@ datasets/*
 !datasets/.gitkeep
 finetuned/*
 !finetuned/.gitkeep
+.vscode/

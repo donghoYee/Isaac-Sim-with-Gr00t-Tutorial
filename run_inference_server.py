@@ -19,7 +19,6 @@ EMBODIMENT_CONFIG = "fourier_gr1_arms_only"
 
 
 device = "cuda"
-EMBODIMENT_TAG = "gr1"
 data_config = DATA_CONFIG_MAP[EMBODIMENT_CONFIG]
 modality_config = data_config.modality_config()
 modality_transform = data_config.transform()
